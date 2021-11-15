@@ -18,7 +18,7 @@ const getSleepHour = (day) =>{
         case 'saturday':
             return 8;
             break;
-        case 'Sunday':
+        case 'sunday':
             return 7
             break;
         default:
@@ -30,7 +30,7 @@ const getActualSleepHours = () =>{
  return getSleepHour('monday') +
  getSleepHour('tuesday') +
  getSleepHour('wednesday') +
- getSleepHour('thrusday') +
+ getSleepHour('thursday') +
  getSleepHour('friday') +
  getSleepHour('saturday') +
  getSleepHour('sunday');
